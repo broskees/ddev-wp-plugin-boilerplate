@@ -1,6 +1,6 @@
 # DDEV WP Plugin Boilerplate
 
-Plugin boilerplate with a DDEV WordPress local enviornment for development! 
+Plugin boilerplate with a DDEV WordPress local environment for plugin development! 
 
 ## Getting Started
 
