@@ -4,16 +4,13 @@ Plugin boilerplate with a DDEV WordPress local environment for plugin developmen
 
 ## Getting Started
 
-Make the directory for your plugin project. Name is what you would like your plugin's directory to be named.
-`mkdir your-plugin-name`
-
-Then clone the boilerplate into your plugin directory.
+Clone the boilerplate into your plugin directory. Make sure you replace `your-plugin-name` with the name of what you would like your plugin's directory to be named.
 `git clone https://github.com/broskees/ddev-wp-plugin-boilerplate.git your-plugin-name`
 
-Finally navigate into your plugin directory and start the ddev environment.
+Next navigate into your plugin directory and start the ddev environment.
 `cd your-plugin-name && ddev start`
 
-That's all you have to do!
+You should now be able to access your WordPress site at `http://your-plugin-name.ddev.site`.
 
 The boilerplate is setup so that the `plugin` directory is the root of your plugin. Don't rename this directory. That's where the development of your plugin will happen.
 
