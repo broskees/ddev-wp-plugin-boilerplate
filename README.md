@@ -15,6 +15,6 @@ Finally navigate into your plugin directory and start the ddev environment.
 
 That's all you have to do!
 
-The boilerplate is setup so that the `plugin` directory is the root of your plugin. Don't rename the plugin directory. That's where you'll development your plugin.
+The boilerplate is setup so that the `plugin` directory is the root of your plugin. Don't rename this directory. That's where the development of your plugin will happen.
 
 Under the hood composer will pull the latest WordPress version and install it in the `wordpress` directory. The `wordpress` directory is then set as the document root for ddev. Finally we mount the `plugin` directory to the `wp-content/plugins` directory in the WordPress installation.
